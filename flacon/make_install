@@ -1,0 +1,6 @@
+brew install git cmake qt5 pkg-config uchardet
+git clone https://github.com/flacon/flacon.git
+mkdir -p flacon/build
+cd flacon/build && cmake .. && make install flacon && cd ../..
+rm -rf flacon
+
